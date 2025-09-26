@@ -136,18 +136,23 @@ class MyHomeUI extends StatelessWidget {
                         margin: EdgeInsets.only(top: 15),
                         child: Row(
                           children: [
+                            const SizedBox(width: 20,),
                             CircleAvatar(
                               backgroundImage: AssetImage('assets/images/men1.jpg'),
                             ),
+                            const SizedBox(width: 20,),
                             CircleAvatar(
                               backgroundImage: AssetImage('assets/images/man2.jpg'),
                             ),
+                            const SizedBox(width: 20,),
                             CircleAvatar(
                               backgroundImage: AssetImage('assets/images/men3.jpg'),
                             ),
+                            const SizedBox(width: 20,),
                             CircleAvatar(
                               backgroundImage: AssetImage('assets/images/men4.jpg'),
                             ),
+                            const SizedBox(width: 20,),
                             CircleAvatar(
                               backgroundImage: AssetImage('assets/images/men5.jpg'),
                             ),
