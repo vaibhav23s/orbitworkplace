@@ -86,45 +86,199 @@ class MyHomeUI extends StatelessWidget {
                     color: Colors.white,
                       borderRadius: BorderRadius.circular(25),
                   ),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  child: Column(
                     children: [
-                       Padding(
-                         padding: const EdgeInsets.only(top:10,left: 10),
-                         child: Text(
-                           'Brand Design',
-                           style: TextStyle(
-                             fontWeight: FontWeight.bold,
-                             fontSize: 16,
-                           ),
-                         ),
-                         
-                       ),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
                            Padding(
-                             padding: const EdgeInsets.only(top: 6),
-                             child: Container(
-                               margin: EdgeInsets.only(left: 100),
-                               child: CircleAvatar(
-                                 backgroundImage: AssetImage('assets/images/pen.png'),
+                             padding: const EdgeInsets.only(top:10,left: 10),
+                             child: Text(
+                               'Brand Design',
+                               style: TextStyle(
+                                 fontWeight: FontWeight.bold,
+                                 fontSize: 16,
                                ),
                              ),
+
                            ),
-                           Padding(
-                             padding: const EdgeInsets.only(top: 6),
-                             child: Container(
-                               margin: EdgeInsets.only(left: 12),
-                               child: CircleAvatar(
-                                 radius: 20,
-                                backgroundImage: AssetImage('assets/images/cland.png'),
+                               Padding(
+                                 padding: const EdgeInsets.only(top: 6),
+                                 child: Container(
+                                   margin: EdgeInsets.only(left: 100),
+                                   child: CircleAvatar(
+                                     backgroundImage: AssetImage('assets/images/pen.png'),
+                                   ),
+                                 ),
                                ),
-                             ),
-                           ),
+                               Padding(
+                                 padding: const EdgeInsets.only(top: 6),
+                                 child: Container(
+                                   margin: EdgeInsets.only(left: 12),
+                                   child: CircleAvatar(
+                                     radius: 20,
+                                    backgroundImage: AssetImage('assets/images/cland.png'),
+                                   ),
+                                 ),
+                               ),
+
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(left: 9.5),
+                            child: Text('Task allocation'),
+                          ),
+                        ],
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(top: 15),
+                        child: Row(
+                          children: [
+                            CircleAvatar(
+                              backgroundImage: AssetImage('assets/images/men1.jpg'),
+                            ),
+                            CircleAvatar(
+                              backgroundImage: AssetImage('assets/images/man2.jpg'),
+                            ),
+                            CircleAvatar(
+                              backgroundImage: AssetImage('assets/images/men3.jpg'),
+                            ),
+                            CircleAvatar(
+                              backgroundImage: AssetImage('assets/images/men4.jpg'),
+                            ),
+                            CircleAvatar(
+                              backgroundImage: AssetImage('assets/images/men5.jpg'),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Container(
+                              width: 120,
+                              height: 10,
+                              decoration: BoxDecoration(
+                                color: Colors.cyanAccent,
+                                borderRadius:BorderRadius.circular(20),
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Container(
+                              width: 80,
+                              height: 14,
+                              decoration: BoxDecoration(
+                                color: Colors.green,
+                                borderRadius:BorderRadius.circular(20),
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Container(
+                              width: 80,
+                              height: 14,
+                              decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius:BorderRadius.circular(20),
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Container(
+                              width: 30,
+                              height: 14,
+                              decoration: BoxDecoration(
+                                color: Colors.deepOrange,
+                                borderRadius:BorderRadius.circular(20),
+                              ),
+                            ),
+                          ),
+                          
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 10),
+                            child: Container(
+                              child: Text(
+                                '138 hrs.',
+                                style: TextStyle(fontSize: 20,fontWeight:FontWeight.bold),
+                              ),
+                              margin:EdgeInsets.only(left: 10,right: 76),
+                            ),
+                          ),
+
+                          Padding(
+                            padding: const EdgeInsets.only(top: 20),
+                            child: Text('12,310\$',
+                                style: TextStyle(fontSize: 20,fontWeight:FontWeight.bold)),
+                          )
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Container(
+
+                              child: Text('Lead time'),
+                            margin: EdgeInsets.only(left: 10,right: 89),
+
+                          ),
+                          Text('Devolopment budget'),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 20,left: 10),
+                            child: CircleAvatar(
+                              minRadius: 15,
+                              backgroundImage: AssetImage('assets/images/tam.png'),
+                            ),
+                          ),
+                          Text('7',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,color: Colors.deepOrange),),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 20),
+                            child: Container(
+                              margin: EdgeInsets.only(left: 160),
+                                child: Text('2',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.deepOrange),
+                                )
+
+                            ),
+                          ),
+
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          Container(
+
+                               child: Padding(
+                                 padding: const EdgeInsets.only(top: 7,left: 14,right: 102),
+                                 child: Text('Tem members',style: TextStyle(fontWeight: FontWeight.bold),),
+                               )
+                          ),
+                          Text('Iteration',style: TextStyle(fontWeight: FontWeight.bold),),
+
+                        ],
+                      )
+
                     ],
+
                   ),
+
                 ),
               )
             ],
-          )
+          ),
+
 
           ],
 
