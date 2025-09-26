@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Vaibhav App',
       debugShowCheckedModeBanner: false,
 
-      // ✅ Theme yaha define hoga
+
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
         textTheme: const TextTheme(

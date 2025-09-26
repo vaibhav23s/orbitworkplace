@@ -14,13 +14,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
-
+    - assets/images/   # ✅ no extra space before or after
 
   fonts:
     - family: vpsfonts
