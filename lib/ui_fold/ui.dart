@@ -138,11 +138,11 @@ class MyHomeUI extends StatelessWidget {
                           children: [
                             const SizedBox(width: 20,),
                             CircleAvatar(
-                              backgroundImage: AssetImage('assets/images/men1.jpg'),
+                              backgroundImage: AssetImage('assets/images/al.jpg'),
                             ),
                             const SizedBox(width: 20,),
                             CircleAvatar(
-                              backgroundImage: AssetImage('assets/images/man2.jpg'),
+                              backgroundImage: AssetImage('assets/images/ma.jpg'),
                             ),
                             const SizedBox(width: 20,),
                             CircleAvatar(
@@ -150,11 +150,11 @@ class MyHomeUI extends StatelessWidget {
                             ),
                             const SizedBox(width: 20,),
                             CircleAvatar(
-                              backgroundImage: AssetImage('assets/images/men4.jpg'),
+                              backgroundImage: AssetImage('assets/images/girl.jpg'),
                             ),
                             const SizedBox(width: 20,),
                             CircleAvatar(
-                              backgroundImage: AssetImage('assets/images/men5.jpg'),
+                              backgroundImage: AssetImage('assets/images/ab.jpg'),
                             ),
                           ],
                         ),
