@@ -268,7 +268,7 @@ class MyHomeUI extends StatelessWidget {
                                child: Padding(
                                  padding: const EdgeInsets.only(top: 7,left: 14,right: 102),
                                  child: Text('Tem members',style: TextStyle(fontWeight: FontWeight.bold),),
-                               )
+                               ),
                           ),
                           Text('Iteration',style: TextStyle(fontWeight: FontWeight.bold),),
 
