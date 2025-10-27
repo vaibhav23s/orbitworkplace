@@ -20,9 +20,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/   # ✅ no extra space before or after
+    - assets/images/
+    - assets/images/ab.png
 
   fonts:
-    - family: vpsfonts
+    - family: boldfont
       fonts:
         - asset: assets/fonts/boldfont.ttf
