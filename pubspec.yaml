@@ -22,6 +22,14 @@ flutter:
   assets:
     - assets/images/
     - assets/images/ab.png
+    - assets/images/add2.png
+    - assets/images/add3 (2).png
+    - assets/images/added.png
+    - assets/images/addperson.png
+    - assets/images/addperson2.png
+    - assets/images/next2.png
+    - assets/images/team4.png
+
 
   fonts:
     - family: boldfont

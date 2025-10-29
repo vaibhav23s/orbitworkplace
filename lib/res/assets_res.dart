@@ -9,4 +9,30 @@ class AssetsRes {
   static const String PROJECT_NAME = 'first_app';
   static const String PROJECT_VERSION = '1.0.0+1';
   static const String AB = 'assets/images/ab.png';
+  static const String ADD2 = 'assets/images/add2.png';
+  static const String ADD3_
+
+  (
+
+  2
+
+  )
+
+  =
+
+  '
+
+  assets/images/add3 (2).png
+
+  ';
+
+  static const String ADDED = 'assets/images/added.png';
+  static const String ADDPERSON = 'assets/images/addperson.png';
+  static const String ADDPERSON2 = 'assets/images/addperson2.png';
+  static const String NEXT2 = 'assets/images/next2.png';
+  static const String TEAM4 = '
+
+  assets/images/team4.png
+
+  ';
 }
